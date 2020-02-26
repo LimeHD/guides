@@ -3,6 +3,7 @@
 ## Стандарты
 
 * https://semver.org
+* https://12factor.net/ru/
 
 ## Использование зависимостей
 
