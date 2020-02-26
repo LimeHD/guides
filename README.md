@@ -12,11 +12,10 @@
 
 Поэтому:
 
-а) Добавляем Pods в .gitignore: echo Pods >> .gitignore
-б) Если что-то наменяли руками в Pods то выкатываем это на github отдельными проектами (публичными или форками уже существующих), если это так, то можно обсудить отдельно такие проекты. Подключаем такие pod-ы напрямую из github типа `pod 'SQLite.swift', :git => 'https://github.com/stephencelis/SQLite.swift.git', :branch => 'swift3-mariotaku'
-`
-г) Удаляем из репозитория содержимое папки ./Pods: git rm -fr ./Pods/*; git commit -m 'Remove Pods/*';
-д) Добавляем в папку .gitkeep чтобы сама папка осталась в проекте (а то git любит удалять пустые папки): `mkdir -f ./Pods; touch ./Pods/.gitkeep; git add -f ./Pods/.gitkeep; git commit -m 'Add Pods/.gitkeep'
+1. Добавляем Pods в .gitignore: echo Pods >> .gitignore
+2. Если что-то наменяли руками в Pods то выкатываем это на github отдельными проектами (публичными или форками уже существующих), если это так, то можно обсудить отдельно такие проекты. Подключаем такие pod-ы напрямую из github типа `pod 'SQLite.swift', :git => 'https://github.com/stephencelis/SQLite.swift.git', :branch => 'swift3-mariotaku'`
+3. Удаляем из репозитория содержимое папки ./Pods: git rm -fr ./Pods/*; git commit -m 'Remove Pods/*';
+4. Добавляем в папку .gitkeep чтобы сама папка осталась в проекте (а то git любит удалять пустые папки): `mkdir -f ./Pods; touch ./Pods/.gitkeep; git add -f ./Pods/.gitkeep; git commit -m 'Add Pods/.gitkeep'
 
 Что касаемо Витрина плеер и других Pod-ов которых уже нет в живых. Делаем публичный репо в аккаунте https://github.com/limeHD/ (могу сделать я или Глеб, скажите только какое название) , копируем туда исходный код pod и подключаем его от туда в проект через  
 
