@@ -4,6 +4,7 @@
 
 * https://semver.org
 * https://12factor.net/ru/
+* https://nvie.com/posts/a-successful-git-branching-model/
 
 ## Использование зависимостей
 
