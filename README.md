@@ -10,6 +10,7 @@
 * Используем git succesful branching model – https://habr.com/ru/post/106912/ (оригинал – https://nvie.com/posts/a-successful-git-branching-model/)
 * Научиться работать с git-ом через консоль (`git rebase, git pull --rebase` и тп)
 * Названия веток: `master`, `develop`, `feature/*`, `fix/*`
+* Пример глобальных настроек для git-а - https://github.com/dapi/dotfiles/blob/master/gitconfig
 
 ## Использование зависимостей в iOS
 
