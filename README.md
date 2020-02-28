@@ -4,9 +4,9 @@
 
 * https://semver.org
 * https://12factor.net/ru/
-* https://nvie.com/posts/a-successful-git-branching-model/
+* https://habr.com/ru/post/106912/ (оригинал – https://nvie.com/posts/a-successful-git-branching-model/)
 
-## Использование зависимостей
+## Использование зависимостей в iOS
 
 Замечание по поводу хранения сторонних зависимостей в основном проекте. В частности Pod-ы для iOS.
 
