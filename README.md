@@ -4,7 +4,12 @@
 
 * https://semver.org
 * https://12factor.net/ru/
-* https://habr.com/ru/post/106912/ (оригинал – https://nvie.com/posts/a-successful-git-branching-model/)
+
+## Работа с git-ом
+
+* Используем git succesful branching model – https://habr.com/ru/post/106912/ (оригинал – https://nvie.com/posts/a-successful-git-branching-model/)
+* Научиться работать с git-ом через консоль (`git rebase, git pull --rebase` и тп)
+* Названия веток: `master`, `develop`, `feature/*`, `fix/*`
 
 ## Использование зависимостей в iOS
 
