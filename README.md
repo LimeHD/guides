@@ -35,3 +35,13 @@
 
 
 PS Посмотрите на эталонные .gitignore для iOS разработки - https://www.gitignore.io/api/osx,swift,objective-c,xcode сделайте у себя такой-же, если что-то не вяжется - пишите.
+
+
+# Impact Mapping
+
+Видео и пост от Александа Бындю
+
+* https://www.youtube.com/watch?v=Gk0Uw93KtFA
+* https://habr.com/ru/post/246401/
+* https://www.ozon.ru/context/detail/id/141368820/
+
