@@ -8,10 +8,10 @@
 ## Работа с git-ом
 
 * Загружаем свой публичный ключ (`~/.ssh/id_rsa.pub`) на github
-* Используем git succesful branching model – https://habr.com/ru/post/106912/ (оригинал – https://nvie.com/posts/a-successful-git-branching-model/)
+* Используем [git succesful branching model](https://habr.com/ru/post/106912/) ([оригинал](https://nvie.com/posts/a-successful-git-branching-model/))
 * Научиться работать с git-ом через консоль (`git rebase, git pull --rebase` и тп)
 * Названия веток: `master`, `develop`, `feature/*`, `fix/*`
-* Пример глобальных настроек для git-а - https://github.com/dapi/dotfiles/blob/master/gitconfig
+* [Пример](https://github.com/dapi/dotfiles/blob/master/gitconfig) глобальных настроек для git-а
 * [git flow](https://danielkummer.github.io/git-flow-cheatsheet/index.ru_RU.html) (опционально, +1 в карму)
 
 ## Использование зависимостей в iOS
