@@ -12,6 +12,7 @@
 * Научиться работать с git-ом через консоль (`git rebase, git pull --rebase` и тп)
 * Названия веток: `master`, `develop`, `feature/*`, `fix/*`
 * Пример глобальных настроек для git-а - https://github.com/dapi/dotfiles/blob/master/gitconfig
+* [git flow](https://danielkummer.github.io/git-flow-cheatsheet/index.ru_RU.html) (опционально, +1 в карму)
 
 ## Использование зависимостей в iOS
 
