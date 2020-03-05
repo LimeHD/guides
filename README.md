@@ -33,9 +33,15 @@
 
 Что касаемо Витрина плеер и других Pod-ов которых уже нет в живых. Делаем публичный репо в аккаунте https://github.com/limeHD/ (могу сделать я или Глеб, скажите только какое название) , копируем туда исходный код pod и подключаем его от туда в проект через  
 
-
 PS Посмотрите на эталонные .gitignore для iOS разработки - https://www.gitignore.io/api/osx,swift,objective-c,xcode сделайте у себя такой-же, если что-то не вяжется - пишите.
 
+# Best practices
+
+* Не использовать относительный пути в зависимостях: `'import { LOCALES } from "./../../../constants/Translation'`. С ними сложно менять организацию файлов.
+
+# Аттестация
+
+* [Карта компетенций](https://docs.google.com/spreadsheets/d/1Tn6utgODiPzc0Z6y_llOYFuxs-kAnD00roAnPkPL2Kc/edit?usp=sharing)
 
 # Impact Mapping
 
@@ -44,7 +50,6 @@ PS Посмотрите на эталонные .gitignore для iOS разра
 * https://www.youtube.com/watch?v=Gk0Uw93KtFA
 * https://habr.com/ru/post/246401/
 * https://www.ozon.ru/context/detail/id/141368820/
-
 
 # Общие положения, инженерная культура, ментальная модель
 
