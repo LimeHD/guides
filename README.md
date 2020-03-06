@@ -70,3 +70,9 @@ PS Посмотрите на эталонные .gitignore для iOS разра
 
 * http://zabbix.iptv2022.com
 * http://ci.iptv2022.com
+
+## Литература
+
+* [Бизнес с нуля](https://www.litres.ru/erik-ris/biznes-s-nulya-metod-lean-startup-dlya-bystrogo-testirovaniya-ide/)
+* [ReWork](https://www.mann-ivanov-ferber.ru/books/luchiernoctar/rework1/)
+* [Практика дао Toyota. Руководство по внедрению принципов менеджмента Toyota](https://www.ozon.ru/context/detail/id/142621871/)
