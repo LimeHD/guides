@@ -43,9 +43,7 @@ PS Посмотрите на эталонные .gitignore для iOS разра
 
 * [Карта компетенций](https://docs.google.com/spreadsheets/d/1Tn6utgODiPzc0Z6y_llOYFuxs-kAnD00roAnPkPL2Kc/edit?usp=sharing)
 
-# Continuous Integration
 
-* [teamcity](https://ci.iptv2022.com)
 
 # Impact Mapping
 
@@ -73,7 +71,7 @@ PS Посмотрите на эталонные .gitignore для iOS разра
 ## Мониторинг
 
 * http://zabbix.iptv2022.com
-* http://ci.iptv2022.com
+* [teamcity](https://ci.iptv2022.com)
 
 ## Литература
 
