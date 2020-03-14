@@ -38,12 +38,11 @@ PS Посмотрите на эталонные .gitignore для iOS разра
 # Best practices
 
 * Не использовать относительный пути в зависимостях: `'import { LOCALES } from "./../../../constants/Translation'`. С ними сложно менять организацию файлов.
+* https://makefile.site
 
 # Аттестация
 
 * [Карта компетенций](https://docs.google.com/spreadsheets/d/1Tn6utgODiPzc0Z6y_llOYFuxs-kAnD00roAnPkPL2Kc/edit?usp=sharing)
-
-
 
 # Impact Mapping
 
