@@ -77,3 +77,11 @@ PS Посмотрите на эталонные .gitignore для iOS разра
 * [Бизнес с нуля](https://www.litres.ru/erik-ris/biznes-s-nulya-metod-lean-startup-dlya-bystrogo-testirovaniya-ide/)
 * [ReWork](https://www.mann-ivanov-ferber.ru/books/luchiernoctar/rework1/)
 * [Практика дао Toyota. Руководство по внедрению принципов менеджмента Toyota](https://www.ozon.ru/context/detail/id/142621871/)
+
+# Continuous Integration
+
+## Подключение проекта в teamcity
+
+1. Создаем под-проект (Create subproject) в одном из основных веток (Android, iOS, Backend & Web)
+2. Выбираем ручное (Manual) создание, вместо `From GitHub.com`, потому что если выбирать из github, то vcs устнавливается через логин/пароль и `https://` вместо доступа по ssh-ключу `git@`. Это необходимо для git hook-ов.
+
