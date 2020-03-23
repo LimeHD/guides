@@ -22,9 +22,9 @@
     Host *
     ForwardAgent Yes
     ```
-    - [x] Так же можно настроить глобально (не обязательно):  `mcedit /etc/ssh/ssh_config` - раскомментировать необходимые строки как выше
+    * Так же можно настроить глобально (не обязательно):  `mcedit /etc/ssh/ssh_config` - раскомментировать необходимые строки как выше
 2. Проверяем наличие ssh keys: `ssh-add -l` & `ssh-add -L`
-    - [x] Вы должны узреть нечто следующее:
+    * Вы должны узреть нечто следующее:
     ```shell script
     // 1
    2048 SHA256:ZpgJVijAqVzEGX4WrGSfhXlx0iVgWcwYe26lQY12RnY /home/user/.ssh/id_rsa (RSA)
