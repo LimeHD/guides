@@ -67,6 +67,31 @@
 
 Для переброски по цепочке нужно на каждом узле активировать forwarding.
 
+## Настрйока безпарольного доступа к серверам
+
+Генерируем ключи:
+
+1. `ssh-keygen`
+    * После ввода этой команды вы должны увидеть следующий вывод:
+    ```shell script
+    enerating public/private rsa key pair.
+    Enter file in which to save the key (/home/user/.ssh/id_rsa):
+    ```
+    * Если ранее вы уже генерировали пару SSH ключей, вы можете увидеть следующий вывод:
+    ```shell script
+    /home/user/.ssh/id_rsa already exists.
+    Overwrite (y/n)?
+    ```
+    * Если вы выберете перезаписать ключи на диск, вы **не сможете** использовать старые ключи для аутентификации. 
+2. Копирование публичного ключа на сервер: 
+    `cat ~/.ssh/id_rsa.pub | ssh user@host "mkdir -p ~/.ssh && touch ~/.ssh/authorized_keys && chmod -R go= ~/.ssh && cat >> ~/.ssh/authorized_keys"`
+    * Здесь создается диреткория `~/.ssh`, если она не существует
+    
+#### PS
+ 
+Вы можете копировать не только ключи, хранящиеся в id_rsa.pub, но и в других файлах.
+Поздравляем у вас настроен вход по ключам SSH, позволяющий заходить на сервер без использования пароля.
+
 ## Использование зависимостей в iOS
 
 Замечание по поводу хранения сторонних зависимостей в основном проекте. В частности Pod-ы для iOS.
@@ -138,3 +163,17 @@ PS Посмотрите на эталонные .gitignore для iOS разра
 1. Создаем под-проект (Create subproject) в одном из основных веток (Android, iOS, Backend & Web)
 2. Выбираем ручное (Manual) создание, вместо `From GitHub.com`, потому что если выбирать из github, то vcs устнавливается через логин/пароль и `https://` вместо доступа по ssh-ключу `git@`. Это необходимо для git hook-ов.
 
+### Maintainers
+
+<table>
+<tr>
+<td align="center">
+<img src="https://avatars1.githubusercontent.com/u/31139?s=460&v=4" width="100px;" alt=""/>
+<br /><sub><b>dapi</b></sub></a><br />
+</td>
+<td align="center">
+<img src="https://avatars1.githubusercontent.com/u/23422968?s=460&u=668229465690637b50f6581df0fa9918d7fb6c1e&v=4" width="100px;" alt=""/>
+<br /><sub><b>zikwall</b></sub></a><br />
+</td>
+</tr>
+</table>
