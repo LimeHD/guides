@@ -32,11 +32,11 @@
     // 2
    ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCz3h/.../dwkRqDhNLtBs7ZJY/SI9i/5hRXF/home/user/.ssh/id_rsa
     ```
-2.1. Если ключей нет генерируем новые:  `ssh-keygen -t rsa -b 4096 -C "your_email@example.com"` все пункты по-дефолту
-2.2. Добавляем в настройки github аккаунта сгенерированный публичный ключ из: `~/.ssh/id_rsa.pub` по адресу: https://github.com/settings/keys
-    - [x] Чтобы посмотреть ключ воспользуйтесь командой: `cat ~/.ssh/id_rsa.pub`
+    * Если ключей нет генерируем новые:  `ssh-keygen -t rsa -b 4096 -C "your_email@example.com"` все пункты по-дефолту
+    * Добавляем в настройки github аккаунта сгенерированный публичный ключ из: `~/.ssh/id_rsa.pub` по адресу: `https://github.com/settings/keys`
+    * Чтобы посмотреть ключ воспользуйтесь командой: `cat ~/.ssh/id_rsa.pub`
 3. Запустите ssh-agent в фоновом режиме: `eval "$(ssh-agent -s)"`
-    - [x] Вы увидите примерно следуещее: `> Agent pid 59566`
+    * Вы увидите примерно следуещее: `> Agent pid 59566`
 4. Добавьте свой закрытый ключ SSH в ssh-agent: `ssh-add` можно так же добавлять определенный ключ, например: `ssh-add ~/.ssh/id_rsa`
 5. Выполняем второй пункт еще раз.
 6. Коннектимся к удаленному серверу и выполняем команды из второго пункта.
