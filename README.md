@@ -163,3 +163,17 @@ PS Посмотрите на эталонные .gitignore для iOS разра
 1. Создаем под-проект (Create subproject) в одном из основных веток (Android, iOS, Backend & Web)
 2. Выбираем ручное (Manual) создание, вместо `From GitHub.com`, потому что если выбирать из github, то vcs устнавливается через логин/пароль и `https://` вместо доступа по ssh-ключу `git@`. Это необходимо для git hook-ов.
 
+### Maintainers
+
+<table>
+<tr>
+<td align="center">
+<img src="https://avatars1.githubusercontent.com/u/31139?s=460&v=4" width="100px;" alt=""/>
+<br /><sub><b>dapi</b></sub></a><br />
+</td>
+<td align="center">
+<img src="https://avatars1.githubusercontent.com/u/23422968?s=460&u=668229465690637b50f6581df0fa9918d7fb6c1e&v=4" width="100px;" alt=""/>
+<br /><sub><b>zikwall</b></sub></a><br />
+</td>
+</tr>
+</table>
