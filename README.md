@@ -14,17 +14,16 @@
 * [Пример](https://github.com/dapi/dotfiles/blob/master/gitconfig) глобальных настроек для git-а
 * [git flow](https://danielkummer.github.io/git-flow-cheatsheet/index.ru_RU.html) (опционально, +1 в карму)
 
-## Наименование git сообщения
+### Наименование git-сообщения
 
 1. `commit message` это НЕ комментарий. Это сообщение, как в чате. Прогарммисты читают commit history как переписку.
 2. commit что-то делает с кодом. Нужно писать что это комит сделает с кодом, когда я его волью.
 3. Номер задачи указывается в конце сообщения через квадратные скобки `[#123]`
 4. С заглавной буквы, как правило начинается с глагода.
 
-## git + bash (show branch name)
+### Настройка shell для отображения текущей ветки и состояния git-а 
 
-* https://askubuntu.com/questions/730754/how-do-i-show-the-git-branch-with-colours-in-bash-prompt
-
+* [bash + git](https://askubuntu.com/questions/730754/how-do-i-show-the-git-branch-with-colours-in-bash-prompt)
 
 # Best practices
 
