@@ -1,5 +1,7 @@
 # Continuous Integration
 
+* [teamcity](https://ci.iptv2022.com)
+
 ## Подключение проекта в teamcity
 
 1. Создаем под-проект (Create subproject) в одном из основных веток (Android, iOS, Backend & Web)
