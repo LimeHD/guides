@@ -14,7 +14,7 @@
 # Best practices
 
 * Не использовать относительный пути в зависимостях: `'import { LOCALES } from "./../../../constants/Translation'`. С ними сложно менять организацию файлов.
-* https://makefile.site
+
 
 # Аттестация
 
@@ -27,6 +27,10 @@
 * https://www.youtube.com/watch?v=Gk0Uw93KtFA
 * https://habr.com/ru/post/246401/
 * https://www.ozon.ru/context/detail/id/141368820/
+
+# Полезные ссылки
+
+* https://makefile.site
 
 # Общие положения, инженерная культура, ментальная модель
 
