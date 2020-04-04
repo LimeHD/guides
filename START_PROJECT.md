@@ -1,7 +1,6 @@
 # Когда стартуется новые проект
 
-## Под backend
-
+1. [ ] Установить в проекте единый [.editorconfig](https://github.com/LimeHD/guides/blob/master/.editorconfig)
 1. [ ] Подключить проект к [Continuous Integration](CONTINUOUS_INTEGRATION.md). Два билда - master и pull requests.
 2. [ ] Положить в README бейджик со статусом билда master
 3. [ ] Подключить проект к bugsnag
