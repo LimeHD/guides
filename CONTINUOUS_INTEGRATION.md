@@ -1,6 +1,6 @@
 # Continuous Integration
 
-* [teamcity](https://ci.iptv2022.com)
+* [ci.iptv2022.com (TeamCity)](https://ci.iptv2022.com)
 
 ## Подключение проекта в teamcity
 
