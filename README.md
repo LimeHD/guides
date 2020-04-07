@@ -10,7 +10,7 @@
 * Установлен и настроен `direnv`
 * Созданы и опубликованы ключи доступа (на github и на сервера)
 * Настроен `ssh-agent`
-* Настроены `rbenv`, `nvm`
+* Настроены `rbenv`, `nvm`, [`goenv`](https://github.com/syndbg/goenv)
 
 # Best practices
 
