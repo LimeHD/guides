@@ -47,6 +47,28 @@
 
 Это исправление должно помочь исправить ошибку: Permission denied (publickey) в ssh.
 
+## Проход на внутренние сервера через SSH (ssh-proxy)
+
+```
+k_alekseev@me0w:[~]: cat .ssh/config | tail -n 13
+Host ci.iptv2022.com
+  ForwardAgent yes
+Host ci.iptv2022.com
+  HostName ci.iptv2022.com
+  User root
+Host server_base
+  HostName 194.35.48.15
+  User root
+  ProxyCommand ssh -q root@ci.iptv2022.com nc %h %p
+Host 194.35.48.15
+  HostName 194.35.48.15
+  User root
+  ProxyCommand ssh -q root@ci.iptv2022.com nc %h %p
+4:46
+k_alekseev@me0w:[~]: ssh server_base
+root@server_base:~#
+```
+
 #### PS
 
 Для переброски по цепочке нужно на каждом узле активировать forwarding.
