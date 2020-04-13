@@ -17,3 +17,7 @@
 # Настройка shell для отображения текущей ветки и состояния git-а 
 
 * [bash + git](https://askubuntu.com/questions/730754/how-do-i-show-the-git-branch-with-colours-in-bash-prompt)
+
+# Как правильно писать ChangeLog
+
+* https://keepachangelog.com/ru/1.0.0/
