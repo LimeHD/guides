@@ -4,6 +4,7 @@
 
 * https://semver.org
 * https://12factor.net/ru/
+* https://restfulapi.net
 
 ## Рабочее окружение
 
