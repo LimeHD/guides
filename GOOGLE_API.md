@@ -3,6 +3,7 @@
 ### Requirements
 
 - [x] PHP
+- [x] Composer
 - [x] [Google API Keys](https://github.com/googleapis/google-api-php-client/tree/master/docs)
 - [x] https://github.com/googleapis/google-api-php-client [`composer require google/apiclient:"^2.0"`]
 
